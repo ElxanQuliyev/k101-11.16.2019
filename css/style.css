@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Header Start*/
+.header {
+    color: #fff;
+    background: #000;
+    opacity: .8;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+}
+
+.header .logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.header .menu {
+    float: right;
+}
+
+.header .menu .dropmenu {
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.header .menu .bigDropMenu {
+    float: left;
+    padding: 20px 15px;
+    list-style: none;
+}
+
+.header .menu .bigDropMenu .bigDropDown li a {
+    color: #000
+}
+
+.header .menu .bigDropMenu li:hover a {
+    color: #f51e46
+}
+
+.header .menu .dropmenu:hover .dropdown {
+    display: block;
+    background: #fff;
+}
+
+.header .menu .dropmenu:hover>a,
+.header .menu .bigDropMenu:hover>a,
+.header .menu .dropmenu .dropdown li:hover>a {
+    color: #f51e46
+}
+
+.header .menu .dropmenu a,
+.header .menu .bigDropMenu a {
+    color: #fff;
+}
+
+/* .header .menu li a {
+    color: #fff;
+} */
+
+.header .menu .dropdown {
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    left: 0;
+    list-style: none;
+    box-shadow: 2px 11px 20px 0px #ccc;
+    display: none;
+}
+
+.header .menu .dropdown li {
+    padding: 12px;
+}
+
+.header .menu .dropdown li a {
+    color: #000
+}
+
+.portAllDrop {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    box-shadow: 2px 11px 20px 0px #ccc;
+    background: #fff;
+    display: none;
+}
+.portAllDrop ul{
+    list-style: none;
+}
+.bigDropMenu:hover .portAllDrop {
+    display: block;
+}
+
+.portAllDrop .port-item {
+    float: left;
+    width: 25%;
+}
+
+.portAllDrop .port-item li {
+    padding: 12px;
+}
+
+.portAllDrop .port-item h3 {
+    padding: 12px;
+    color: #000;
+    margin-bottom: 8px;
+
+}
+/*Header End*/
+
+/*************/
+.shortCodes {
+    background: url(../Photo/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.shortCodes .short-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.shortCodes h1,
+.shortCodes p {
+    text-transform: uppercase;
+}
+
+.shortCodes h1{
+    font-size: 4.3rem;
+}
+.shortCodes p{
+    margin-top:17px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+/***Creative Start*/
+#creative{
+    padding: 45px 0;
+}
+#creative .creative-left,
+#creative .creat-text
+{
+    width: 70%;
+    float: left;
+}
+#creative .creative-left .creative-item{
+    width: 50%;
+    float: left;
+    margin-bottom: 15px;
+}
+#creative .creative-right{
+    width: 30%;
+    float: left;
+}
+#creative .creat-ico{
+    width: 21%;
+    float: left;
+    margin-right: 15px;
+    padding: 23px 0px;
+    border-radius: 50%;
+    border:1px solid green;
+    font-size: 1.5em;
+    text-align: center
+}
+.line{
+    display: block;
+    height: 2px;
+    width: 40px;
+    margin-top: 5px;
+    background: green;
+}
